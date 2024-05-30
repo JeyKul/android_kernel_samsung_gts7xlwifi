@@ -6088,12 +6088,6 @@ CONFIG_GATOR=m
 # CONFIG_GATOR_DO_NOT_ONLINE_CORES_AT_STARTUP is not set
 
 #
-# samsung Performace manager
-#
-CONFIG_PERF_MGR=y
-CONFIG_KPERFMON=y
-
-#
 # KUnit support
 #
 # CONFIG_KUNIT is not set
