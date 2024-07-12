@@ -26,7 +26,6 @@
 #include <linux/memfd.h>
 #include <linux/compat.h>
 #include <linux/task_integrity.h>
-#include <linux/proca.h>
 
 #include <linux/poll.h>
 #include <asm/siginfo.h>
@@ -430,10 +429,6 @@ static long do_fcntl(int fd, unsigned int cmd, unsigned long arg,
 		err = five_fcntl_verify_sync(filp);
 		break;
 #if defined(CONFIG_FIVE_PA_FEATURE) || defined(CONFIG_PROCA)
-	case F_FIVE_PA_SETXATTR:
-		err = proca_fcntl_setxattr(filp, (void __user *)arg);
-		break;
-#endif
 	case F_FIVE_EDIT:
 		err = five_fcntl_edit(filp);
 		break;

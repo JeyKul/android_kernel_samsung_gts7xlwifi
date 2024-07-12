@@ -250,8 +250,6 @@ source security/hdm/Kconfig
 
 source security/integrity/Kconfig
 source security/samsung/five/Kconfig
-source security/proca/Kconfig
-
 choice
 	prompt "Default security module"
 	default DEFAULT_SECURITY_SELINUX if SECURITY_SELINUX
