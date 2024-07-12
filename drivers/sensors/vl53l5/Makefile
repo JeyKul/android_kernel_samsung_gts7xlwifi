@@ -82,7 +82,7 @@ OFFSET_CAL_ENABLE = FALSE
 LEGACY_CODE = FALSE
 
 # Set to TRUE to enable logging functions.
-LOG_ENABLE = TRUE
+LOG_ENABLE = FALSE
 
 # Set to TRUE to enable stress test functions.
 TEST_ENABLE = FALSE
@@ -115,7 +115,6 @@ ccflags-y += -DVL53L5_INTERRUPT
 endif
 
 ifeq "$(OFFSET_CAL_ENABLE)" "TRUE"
-  $(warning OFFSET_CAL_ENABLE=$(OFFSET_CAL_ENABLE))
   ccflags-y += -DVL53L5_OFFSET_CAL
 endif
 
@@ -127,11 +126,6 @@ ifeq "$(BUILD_TYPE)" "DEBUG"
   $(warning BUILD_TYPE=$(BUILD_TYPE))
   ccflags-y += -DDEBUG
 endif
-
-ifeq "$(BUILD_TYPE)" "RELEASE"
-  $(warning BUILD_TYPE=$(BUILD_TYPE))
-endif
-
 
 KERNEL_DRIVER_OBJS = \
 			src/vl53l5_k_ioctl_controls.o \
