@@ -51,9 +51,6 @@
 
 #ifdef CONFIG_UH
 #include <linux/uh.h>
-#ifdef CONFIG_UH_RKP
-#include <linux/rkp.h>
-#endif
 #endif
 
 #define NO_BLOCK_MAPPINGS	BIT(0)
