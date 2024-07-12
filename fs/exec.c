@@ -62,7 +62,6 @@
 #include <linux/oom.h>
 #include <linux/compat.h>
 #include <linux/vmalloc.h>
-#include <linux/task_integrity.h>
 
 #include <linux/uaccess.h>
 #include <asm/mmu_context.h>
@@ -2149,29 +2148,6 @@ SYSCALL_DEFINE3(execve,
 		const char __user *const __user *, argv,
 		const char __user *const __user *, envp)
 {
-#ifdef CONFIG_KDP_CRED
-	struct filename *path = getname(filename);
-	int error = PTR_ERR(path);
-
-	if(IS_ERR(path))
-		return error;
-
-	if(rkp_cred_enable){
-		uh_call(UH_APP_RKP, RKP_KDP_X4B, (u64)path->name, 0, 0, 0);
-	}
-
-	if(CHECK_ROOT_UID(current) && rkp_cred_enable) {
-		if(rkp_restrict_fork(path)){
-			pr_warn("RKP_KDP Restricted making process. PID = %d(%s) "
-							"PPID = %d(%s)\n",
-			current->pid, current->comm,
-			current->parent->pid, current->parent->comm);
-			putname(path);
-			return -EACCES;
-		}
-	}
-	putname(path);
-#endif
 	return do_execve(getname(filename), argv, envp);
 }
 

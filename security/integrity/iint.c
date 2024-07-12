@@ -22,9 +22,6 @@
 #include <linux/file.h>
 #include <linux/uaccess.h>
 #include <linux/security.h>
-#ifdef CONFIG_FIVE
-#include <uapi/linux/magic.h>
-#endif
 #include "integrity.h"
 
 static struct rb_root integrity_iint_tree = RB_ROOT;
@@ -76,13 +73,6 @@ struct integrity_iint_cache *integrity_iint_find(struct inode *inode)
 
 static void iint_free(struct integrity_iint_cache *iint)
 {
-#ifdef CONFIG_FIVE
-	kfree(iint->five_label);
-	iint->five_label = NULL;
-	iint->five_flags = 0UL;
-	iint->five_status = FIVE_FILE_UNKNOWN;
-	iint->five_signing = false;
-#endif
 	kfree(iint->ima_hash);
 	iint->ima_hash = NULL;
 	iint->version = 0;
@@ -168,11 +158,6 @@ static void init_once(void *foo)
 	struct integrity_iint_cache *iint = foo;
 
 	memset(iint, 0, sizeof(*iint));
-#ifdef CONFIG_FIVE
-	iint->five_flags = 0UL;
-	iint->five_status = FIVE_FILE_UNKNOWN;
-	iint->five_signing = false;
-#endif
 	iint->ima_file_status = INTEGRITY_UNKNOWN;
 	iint->ima_mmap_status = INTEGRITY_UNKNOWN;
 	iint->ima_bprm_status = INTEGRITY_UNKNOWN;
