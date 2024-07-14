@@ -1,1 +1,232 @@
-Total compile time was 0 seconds
+make: Entering directory '/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi'
+make[1]: Entering directory '/mnt/BuildDrive/Tab7/out'
+  GEN     ./Makefile
+drivers/gps/Kconfig:3:warning: prompt redefined
+drivers/gps/Kconfig:1:warning: ignoring type redefinition of 'GPS_BCMxxxxx' from 'tristate' to 'bool'
+drivers/gps/Kconfig:10:warning: prompt redefined
+drivers/gps/Kconfig:8:warning: ignoring type redefinition of 'GPS_BCM4752' from 'tristate' to 'bool'
+drivers/gps/Kconfig:17:warning: prompt redefined
+drivers/gps/Kconfig:15:warning: ignoring type redefinition of 'GPS_BCM47521' from 'tristate' to 'bool'
+drivers/gps/Kconfig:24:warning: prompt redefined
+drivers/gps/Kconfig:22:warning: ignoring type redefinition of 'GPS_BCM4753' from 'tristate' to 'bool'
+drivers/gps/Kconfig:31:warning: prompt redefined
+drivers/gps/Kconfig:29:warning: ignoring type redefinition of 'GPS_BCM47531' from 'tristate' to 'bool'
+drivers/gps/Kconfig:38:warning: prompt redefined
+drivers/gps/Kconfig:36:warning: ignoring type redefinition of 'GPS_BCM4773' from 'tristate' to 'bool'
+drivers/leds/Kconfig:808:warning: ignoring type redefinition of 'LEDS_KTD2692' from 'tristate' to 'bool'
+drivers/sensors/Kconfig:187: warning: 'SENSORS_A96T365IF' defined with blank help text
+drivers/samsung/debug/Kconfig:4:warning: ignoring type redefinition of 'SEC_DEBUG' from 'tristate' to 'bool'
+drivers/perf_mgr/Kconfig:1:warning: ignoring unsupported character ''
+drivers/perf_mgr/Kconfig:2:warning: ignoring unsupported character ''
+drivers/perf_mgr/Kconfig:8:warning: ignoring unsupported character ''
+drivers/samsung/debug/Kconfig:30:warning: defaults for choice values not supported
+drivers/samsung/debug/Kconfig:36:warning: defaults for choice values not supported
+KCONFIG_VARIANT((null))
+KCONFIG_DEBUG((null))
+#
+# configuration written to .config
+#
+make[1]: Leaving directory '/mnt/BuildDrive/Tab7/out'
+make: Leaving directory '/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi'
+make: Entering directory '/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi'
+make[1]: Entering directory '/mnt/BuildDrive/Tab7/out'
+make[1]: secgetspf: No such file or directory
+  GEN     ./Makefile
+scripts/kconfig/conf  --syncconfig Kconfig
+drivers/gps/Kconfig:3:warning: prompt redefined
+drivers/gps/Kconfig:1:warning: ignoring type redefinition of 'GPS_BCMxxxxx' from 'tristate' to 'bool'
+drivers/gps/Kconfig:10:warning: prompt redefined
+drivers/gps/Kconfig:8:warning: ignoring type redefinition of 'GPS_BCM4752' from 'tristate' to 'bool'
+drivers/gps/Kconfig:17:warning: prompt redefined
+drivers/gps/Kconfig:15:warning: ignoring type redefinition of 'GPS_BCM47521' from 'tristate' to 'bool'
+drivers/gps/Kconfig:24:warning: prompt redefined
+drivers/gps/Kconfig:22:warning: ignoring type redefinition of 'GPS_BCM4753' from 'tristate' to 'bool'
+drivers/gps/Kconfig:31:warning: prompt redefined
+drivers/gps/Kconfig:29:warning: ignoring type redefinition of 'GPS_BCM47531' from 'tristate' to 'bool'
+drivers/gps/Kconfig:38:warning: prompt redefined
+drivers/gps/Kconfig:36:warning: ignoring type redefinition of 'GPS_BCM4773' from 'tristate' to 'bool'
+drivers/leds/Kconfig:808:warning: ignoring type redefinition of 'LEDS_KTD2692' from 'tristate' to 'bool'
+drivers/sensors/Kconfig:187: warning: 'SENSORS_A96T365IF' defined with blank help text
+drivers/samsung/debug/Kconfig:4:warning: ignoring type redefinition of 'SEC_DEBUG' from 'tristate' to 'bool'
+drivers/perf_mgr/Kconfig:1:warning: ignoring unsupported character ''
+drivers/perf_mgr/Kconfig:2:warning: ignoring unsupported character ''
+drivers/perf_mgr/Kconfig:8:warning: ignoring unsupported character ''
+drivers/samsung/debug/Kconfig:30:warning: defaults for choice values not supported
+drivers/samsung/debug/Kconfig:36:warning: defaults for choice values not supported
+make[1]: secgetspf: No such file or directory
+  GEN     ./Makefile
+kperfmon_DUMMY="perflog.h file is missing."
+cp: cannot stat '/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/../../system/core/liblog/include/log/perflog.h': No such file or directory
+kperfmon_DUMMY=""
+make[5]: secgetspf: No such file or directory
+  Using /mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi as source for kernel
+  CALL    /mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+  GZIP    kernel/config_data.gz
+kperfmon_DUMMY="perflog.h file is missing."
+cp: cannot stat '/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/../../system/core/liblog/include/log/perflog.h': No such file or directory
+kperfmon_DUMMY=""
+  CC      techpack/audio/ipc/apr.o
+  CC      techpack/audio/ipc/apr_v2.o
+  DTC     arch/arm64/boot/dts/samsung/common/kona-sec-system-update-overlay.dtbo
+  CC      techpack/audio/ipc/apr_tal_rpmsg.o
+make[5]: secgetspf: No such file or directory
+  AR      techpack/audio/ipc/built-in.a
+  AR      techpack/audio/built-in.a
+  AR      techpack/built-in.a
+fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+  CC      drivers/net/wireless/qualcomm/qca6390/qcacld-3.0/core/hdd/src/wlan_hdd_main.o
+  AR      drivers/net/wireless/qualcomm/qca6390/qcacld-3.0/built-in.a
+  AR      drivers/net/wireless/built-in.a
+  AR      drivers/net/built-in.a
+  AR      drivers/built-in.a
+  GEN     .version
+  CHK     include/generated/compile.h
+  UPD     include/generated/compile.h
+  CC      init/version.o
+  AR      init/built-in.a
+  AR      built-in.a
+  MODPOST vmlinux.o
+WARNING: vmlinux: 'a96t3x6_recovery_mode_check' exported twice. Previous export was in vmlinux
+mm/filemap.o: In function `__delete_from_page_cache':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/mm/filemap.c:283: undefined reference to `sdp_page_cleanup'
+fs/crypto/crypto.o: In function `fscrypt_crypt_block':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/crypto.c:167: undefined reference to `sdp_fs_request'
+fs/crypto/keysetup.o: In function `fscrypt_get_encryption_info':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/keysetup.c:544: undefined reference to `__dd_debug'
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/keysetup.c:666: undefined reference to `alloc_dd_info'
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/keysetup.c:668: undefined reference to `__dd_debug'
+fs/crypto/keysetup.o: In function `put_crypt_info':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/keysetup.c:495: undefined reference to `dd_info_try_free'
+fs/crypto/keysetup_v1.o: In function `setup_v1_file_key_derived':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/keysetup_v1.c:302: undefined reference to `sdp_fs_request'
+fs/crypto/policy.o: In function `fscrypt_inherit_context':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/policy.c:699: undefined reference to `__dd_debug'
+fs/crypto/fscrypt_ddar.o: In function `dd_test_and_inherit_context':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/fscrypt_ddar.c:20: undefined reference to `__dd_debug'
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/fscrypt_ddar.c:28: undefined reference to `dd_create_crypt_context'
+fs/crypto/fscrypt_ddar.o: In function `update_encryption_context_with_dd_policy':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/fscrypt_ddar.c:41: undefined reference to `__dd_debug'
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/fscrypt_ddar.c:68: undefined reference to `__dd_debug'
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/fscrypt_ddar.c:84: undefined reference to `__dd_debug'
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/fscrypt_ddar.c:76: undefined reference to `__dd_debug'
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/fscrypt_ddar.c:82: undefined reference to `__dd_debug'
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/fscrypt_ddar.c:88: undefined reference to `dd_create_crypt_context'
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/fscrypt_ddar.c:98: undefined reference to `alloc_dd_info'
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/fscrypt_ddar.c:100: undefined reference to `__dd_debug'
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/fscrypt_ddar.c:95: undefined reference to `__dd_debug'
+fs/crypto/fscrypt_ddar.o: In function `fscrypt_dd_inc_count':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/fscrypt_ddar.c:262: undefined reference to `inc_ddar_count'
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/fscrypt_ddar.c:262: undefined reference to `inc_ddar_count'
+fs/crypto/fscrypt_ddar.o: In function `fscrypt_dd_can_merge_bio':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/fscrypt_ddar.c:221: undefined reference to `__dd_debug'
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/fscrypt_ddar.c:226: undefined reference to `__dd_debug'
+fs/crypto/fscrypt_ddar.o: In function `fscrypt_dd_decrypt_page':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/fscrypt_ddar.c:247: undefined reference to `dd_page_crypto'
+fs/crypto/fscrypt_ddar.o: In function `fscrypt_dd_set_count':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/fscrypt_ddar.c:252: undefined reference to `set_ddar_count'
+fs/crypto/fscrypt_ddar.o: In function `fscrypt_dd_get_count':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/fscrypt_ddar.c:257: undefined reference to `get_ddar_count'
+fs/crypto/fscrypt_ddar.o: In function `fscrypt_dd_dec_count':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/fscrypt_ddar.c:267: undefined reference to `dec_ddar_count'
+fs/crypto/fscrypt_ddar.o: In function `fscrypt_dd_is_locked':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/fscrypt_ddar.c:272: undefined reference to `dd_is_user_deamon_locked'
+fs/crypto/fscrypt_ddar.o: In function `fscrypt_dd_get_count':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/fscrypt_ddar.c:257: undefined reference to `get_ddar_count'
+fs/crypto/fscrypt_ddar.o: In function `fscrypt_dd_ioctl':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/fscrypt_ddar.c:305: undefined reference to `__dd_debug'
+fs/crypto/fscrypt_ddar.o: In function `fscrypt_dd_submit_bio':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/fscrypt_ddar.c:317: undefined reference to `dd_submit_bio'
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/fscrypt_ddar.c:317: undefined reference to `dd_submit_bio'
+fs/crypto/sdp/sdp_cache.o: In function `fscrypt_sdp_file_not_readable':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_cache.c:297: undefined reference to `dek_is_locked'
+fs/crypto/sdp/sdp_dek.o: In function `__fscrypt_get_sdp_fek':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_dek.c:905: undefined reference to `dek_decrypt_fek'
+fs/crypto/sdp/sdp_dek.o: In function `__fscrypt_set_sdp_dek':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_dek.c:930: undefined reference to `dek_encrypt_dek_efs'
+fs/crypto/sdp/sdp_dek.o: In function `__fscrypt_sdp_finish_set_sensitive':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_dek.c:1205: undefined reference to `sdp_fs_request'
+fs/crypto/sdp/sdp_dek.o: In function `__fscrypt_get_sdp_fek':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_dek.c:905: undefined reference to `dek_decrypt_fek'
+fs/crypto/sdp/sdp_dek.o: In function `__fscrypt_set_sdp_dek':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_dek.c:930: undefined reference to `dek_encrypt_dek_efs'
+fs/crypto/sdp/sdp_dek.o: In function `__fscrypt_sdp_finish_set_sensitive':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_dek.c:1205: undefined reference to `sdp_fs_request'
+fs/crypto/sdp/sdp_dek.o: In function `fscrypt_sdp_set_protected':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_dek.c:373: undefined reference to `dek_is_locked'
+fs/crypto/sdp/sdp_dek.o: In function `__fscrypt_get_sdp_dek':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_dek.c:801: undefined reference to `dek_decrypt_dek_efs'
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_dek.c:801: undefined reference to `dek_decrypt_dek_efs'
+fs/crypto/sdp/sdp_dek.o: In function `__fscrypt_set_sdp_fek':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_dek.c:880: undefined reference to `dek_encrypt_fek'
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_dek.c:880: undefined reference to `dek_encrypt_fek'
+fs/crypto/sdp/sdp_dek.o: In function `__fscrypt_get_sdp_fek':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_dek.c:905: undefined reference to `dek_decrypt_fek'
+fs/crypto/sdp/sdp_dek.o: In function `__fscrypt_set_sdp_dek':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_dek.c:930: undefined reference to `dek_encrypt_dek_efs'
+fs/crypto/sdp/sdp_dek.o: In function `__fscrypt_sdp_finish_set_sensitive':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_dek.c:1205: undefined reference to `sdp_fs_request'
+fs/crypto/sdp/sdp_dek.o: In function `__fscrypt_set_sdp_fek':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_dek.c:880: undefined reference to `dek_encrypt_fek'
+fs/crypto/sdp/sdp_dek.o: In function `__fscrypt_get_sdp_fek':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_dek.c:905: undefined reference to `dek_decrypt_fek'
+fs/crypto/sdp/sdp_dek.o: In function `__fscrypt_set_sdp_dek':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_dek.c:930: undefined reference to `dek_encrypt_dek_efs'
+fs/crypto/sdp/sdp_dek.o: In function `__fscrypt_get_sdp_fek':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_dek.c:905: undefined reference to `dek_decrypt_fek'
+fs/crypto/sdp/sdp_dek.o: In function `__fscrypt_set_sdp_dek':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_dek.c:930: undefined reference to `dek_encrypt_dek_efs'
+fs/crypto/sdp/sdp_dek.o: In function `__fscrypt_sdp_finish_set_sensitive':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_dek.c:1205: undefined reference to `sdp_fs_request'
+fs/crypto/sdp/sdp_dek.o: In function `__fscrypt_get_sdp_dek':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_dek.c:801: undefined reference to `dek_decrypt_dek_efs'
+fs/crypto/sdp/sdp_dek.o: In function `__fscrypt_get_sdp_fek':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_dek.c:905: undefined reference to `dek_decrypt_fek'
+fs/crypto/sdp/sdp_ioctl.o: In function `fscrypt_sdp_ioctl_set_sdp_policy':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_ioctl.c:57: undefined reference to `is_root'
+fs/crypto/sdp/sdp_ioctl.o: In function `fscrypt_sdp_ioctl_set_sensitive':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_ioctl.c:94: undefined reference to `is_root'
+fs/crypto/sdp/sdp_ioctl.o: In function `fscrypt_sdp_ioctl_set_protected':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_ioctl.c:138: undefined reference to `is_root'
+fs/crypto/sdp/sdp_ioctl.o: In function `fscrypt_sdp_ioctl_add_chamber_directory':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_ioctl.c:188: undefined reference to `is_root'
+fs/crypto/sdp/sdp_ioctl.o: In function `fscrypt_sdp_ioctl_remove_chamber_directory':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_ioctl.c:229: undefined reference to `is_root'
+fs/crypto/sdp/sdp_name.o: In function `fscrypt_sdp_check_chamber_event':
+/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/fs/crypto/sdp/sdp_name.c:96: undefined reference to `sdp_fs_request'
+make[1]: *** [/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi/Makefile:1219: vmlinux] Error 1
+make[1]: Leaving directory '/mnt/BuildDrive/Tab7/out'
+make: *** [Makefile:146: sub-make] Error 2
+make: Leaving directory '/mnt/BuildDrive/Tab7/android_kernel_samsung_gts7xlwifi'
+Total compile time was 17 seconds
